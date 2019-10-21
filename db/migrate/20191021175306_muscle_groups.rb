@@ -1,6 +1,6 @@
 class MuscleGroups < ActiveRecord::Migration[6.0]
   def change
-    create_table :musclegroups do |t|
+    create_table :muscle_groups do |t|
       t.string :name
 
 

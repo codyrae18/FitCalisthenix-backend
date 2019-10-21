@@ -1,4 +1,4 @@
-class Activity < ApplicationRecord
-    has_many :
+class Workout < ApplicationRecord
+
     
 end

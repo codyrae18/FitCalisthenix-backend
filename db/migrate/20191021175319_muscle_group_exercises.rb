@@ -1,6 +1,6 @@
 class MuscleGroupExercises < ActiveRecord::Migration[6.0]
   def change
-    create_table :muclegroupexercises do |t|
+    create_table :muscle_group_exercises do |t|
 
       t.integer :exercise_id
       t.integer :muscle_group_id

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :users
   resources :exercise
   resources :workouts
-  resources :musclegroups
-  resources :musclegroupexercises
+  resources :muscle_groups
+  resources :muscle_group_exercises
 
 end
