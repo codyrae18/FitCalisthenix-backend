@@ -1,8 +1,8 @@
-class ActivitiesController < ApplicationController
+class UsersController < ApplicationController
 
     def index
-        activities = Activity.all 
-        render json: activities
+        users = User.all 
+        render json: users
     end
     
 end
