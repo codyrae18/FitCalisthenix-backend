@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_10_21_175515) do
 
   create_table "exercises", force: :cascade do |t|
     t.string "name"
-    t.integer "difficulty"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -37,8 +37,10 @@ ActiveRecord::Schema.define(version: 2019_10_21_175515) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
+    t.string "username"
     t.string "email"
     t.string "password"
+    t.string "password_digest"
     t.integer "age"
     t.integer "height"
     t.integer "weight"
